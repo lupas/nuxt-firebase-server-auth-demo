@@ -29,7 +29,7 @@ export default {
         const idToken = await authUser.getIdToken(true)
         console.log("HIER", idToken)
         console.log(this.$axios.defaults)
-        this.$axios.defaults.headers.authorization = `Basic ${idToken}`;
+        this.$axios.defaults.headers.authorization = `Bearer ${idToken}`;
       } catch (e) {
         console.error(e)
       }
