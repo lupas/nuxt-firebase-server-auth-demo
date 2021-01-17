@@ -1,0 +1,10 @@
+{
+  "name": "nuxt-firebase-server-auth-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "setup": "cd packages/backend && yarn && cd ../frontend && yarn",
+    "backend": "cd packages/backend && yarn dev",
+    "frontend": "cd packages/frontend && yarn dev"
+  }
+}

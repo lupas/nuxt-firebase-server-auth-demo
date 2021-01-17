@@ -1,0 +1,16 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "GOOGLE_APPLICATION_CREDENTIALS='/Users/pascalluther/Code/nuxt-firebase-server-auth/packages/backend/service-account.json' node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.4.2"
+  }
+}
